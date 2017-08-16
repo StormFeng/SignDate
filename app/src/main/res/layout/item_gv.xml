@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rlItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tvWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="一"
+        android:gravity="center"
+        android:textColor="#666"
+        android:background="@android:color/white">
+    </TextView>
+    <ImageView
+        android:id="@+id/ivStatus"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:src="@mipmap/icon_select"
+        android:layout_marginRight="10dp"
+        android:visibility="gone"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
